@@ -79,7 +79,7 @@ The database schema is optimized for queries on song play analysis and it follow
 `time` - timestamps of records in songplays broken down into specific units
 
 ##### Schema Diagram
-![alt text](./img/sparkifydb-schema.png "schema")
+![alt text](img/sparkify-schema.png "schema")
 
 
 >The database has been created to replicate the `users`, `artists` and `time` tables on all nodes and to distribute the `songs` and `songplays` tables across nodes using the `song_id` attribute to have stored on the same nodes events and songs in the event, and avoid shuffling in queries.
